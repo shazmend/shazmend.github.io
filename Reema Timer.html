@@ -1,0 +1,94 @@
+<! -- Reema study timer -->
+<html>
+<head>
+<title> Reema Timer </title>
+<!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/6f3103b13c.js" crossorigin="anonymous"></script>
+	
+	 <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css">
+<style>
+img {
+  display: flex;
+  width: 90%;
+  margin-left: 70px;
+  
+}
+
+
+
+.Note {
+  display: flex;
+  background-color: #E6D0B2;
+  border-left: 6px solid brown;
+  width:60%;
+  margin-left: 160px;
+}
+
+.Note p{
+ text-align: center;
+ margin-top:10px;
+ margin-right:20px;
+}
+
+.title{
+margin-left:15px;
+}
+
+
+</style>
+</head>
+<!--The img % background-->
+<body>
+
+
+
+<!--Work/break panel-->
+<Section>
+        <div class="bigcontainer">
+		<div class="img">
+				<img src="reema.png" alt="Reema" >
+				<!--The Note bar-->
+			<div class="Note">
+			<div class="title">
+				<h1>Reema Study Timer</h1>
+			</div>
+				<p><strong> Note:</strong>You can always get what you want ..♥.. </p>
+			</div>
+				
+		</div>
+        <div class="container">
+            <div class="painel">
+                <p id="work" class="active">work</p>
+                <p id="break">break</p>
+            </div>
+
+            <div class="timer">
+                <div class="circle">
+                    <div class="time">
+                        <p id="minutes">40</p>
+                        <p>:</p>
+                        <p id="seconds">00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="start" onclick="start()"><i class="fa-sharp fa-solid fa-circle-play"></i></button>
+
+                <a id="reset" href="./"><i class="fa-solid fa-arrow-rotate-left"></i></a>
+            </div>
+			
+        </div>
+		</div>
+<Section>
+<!-- SCRIPT -->
+    <script src="./script.js"></script>
+</body>
+</html>
+
