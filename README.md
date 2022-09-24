@@ -1,2 +1,0 @@
-# shazmend.github.io
-timer
